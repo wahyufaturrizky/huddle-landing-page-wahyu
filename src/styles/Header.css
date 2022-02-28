@@ -1,0 +1,31 @@
+.container-header-intro {
+  padding: 48px 48px 0px 48px;
+  background-color: #ebfbff;
+  background-image: url("../assets/images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 56px;
+}
+
+.container-image {
+  width: 64%;
+  justify-content: center;
+  display: flex;
+}
+
+.container-text-intro {
+  width: 36%;
+}

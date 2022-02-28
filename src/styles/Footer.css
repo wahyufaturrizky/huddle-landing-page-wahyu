@@ -1,0 +1,28 @@
+.attribution {
+  font-size: 11px;
+  margin-top: 80px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+.attribution a {
+  color: hsl(193, 38%, 86%);
+}
+
+.footer {
+  padding: 124px 48px 124px 48px;
+  background-color: #00252e;
+}
+
+.footer-sosmed {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sub-item-sosmed {
+  display: flex;
+}
+
+.copy {
+  text-align: right;
+}

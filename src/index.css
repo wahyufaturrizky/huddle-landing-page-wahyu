@@ -1,13 +1,87 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mr-16 {
+  margin-right: 16px;
+}
+
+.white {
+  color: white;
+}
+
+.font-poppins-600 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: normal;
+  line-height: initial;
+}
+
+.font-poppins-400 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: initial;
+}
+
+.font-open-sans-400 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  line-height: initial;
+}
+
+.font-open-sans-700 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  line-height: initial;
+}
+.pl-24 {
+  padding-left: 24px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.very-dark-cyan {
+  color: #00252e;
+}
+
+.grayish-blue {
+  color: #808d99;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
 }
