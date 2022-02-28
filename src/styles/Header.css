@@ -29,3 +29,30 @@
 .container-text-intro {
   width: 36%;
 }
+
+@media only screen and (max-width: 426px) {
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .show-in-mobile {
+    display: block;
+  }
+
+  .container-header-intro {
+    padding: 16px 16px 0px 16px;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+
+  .container-text-intro {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-image {
+    width: 100%;
+  }
+}
