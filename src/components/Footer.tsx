@@ -11,14 +11,29 @@ const Footer = () => {
 
       <section className="footer-sosmed mt-40">
         <div className="item-sosmed">
-          <div style={{ width: 368 }} className="sub-item-sosmed">
-            <div className="mr-16">
-              <LogoLoc />
+          <div className="hide-in-mobile">
+            <div style={{ width: 368 }} className="sub-item-sosmed">
+              <div className="mr-16">
+                <LogoLoc />
+              </div>
+              <p className="font-open-sans-400 white">
+                Dusun X RT.005/RW.003 Desa Buntubedimbar, Kabupaten Deli
+                Serdang, Kecamatan Tanjung Morawa, No Rumah 88A, 20362,
+                Indonesia
+              </p>
             </div>
-            <p className="font-open-sans-400 white">
-              Dusun X RT.005/RW.003 Desa Buntubedimbar, Kabupaten Deli Serdang,
-              Kecamatan Tanjung Morawa, No Rumah 88A, 20362, Indonesia
-            </p>
+          </div>
+          <div className="show-in-mobile">
+            <div className="sub-item-sosmed">
+              <div className="mr-16">
+                <LogoLoc />
+              </div>
+              <p className="font-open-sans-400 white">
+                Dusun X RT.005/RW.003 Desa Buntubedimbar, Kabupaten Deli
+                Serdang, Kecamatan Tanjung Morawa, No Rumah 88A, 20362,
+                Indonesia
+              </p>
+            </div>
           </div>
           <div className="sub-item-sosmed mt-16">
             <div className="mr-16">
@@ -35,17 +50,17 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="item-sosmed pl-24">
+        <div className="item-sosmed pl-24 pl-0-xs mt-16-xs">
           <p className="font-open-sans-400 white mb-16">About Us</p>
           <p className="font-open-sans-400 white mb-16">What We Do</p>
           <p className="font-open-sans-400 white">FAQ</p>
         </div>
-        <div className="item-sosmed pl-24">
+        <div className="item-sosmed pl-24 pl-0-xs mt-16-xs">
           <p className="font-open-sans-400 white mb-16">Career</p>
           <p className="font-open-sans-400 white mb-16">Blog</p>
           <p className="font-open-sans-400 white">Contact us</p>
         </div>
-        <div className="item-sosmed pl-24">
+        <div className="item-sosmed pl-24 pl-0-xs text-center-xs mt-16-xs">
           <img
             onClick={() =>
               window.open(
@@ -79,7 +94,7 @@ const Footer = () => {
         </div>
       </section>
 
-      <p className="copy font-open-sans-400 white text-12">
+      <p className="copy font-open-sans-400 white text-12 text-center-xs mt-16-xs">
         &copy; Copyright 2022 Huddle Wahyu Fatur Rizki. All rights reserved.
       </p>
 

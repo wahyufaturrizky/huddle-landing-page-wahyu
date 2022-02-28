@@ -50,6 +50,10 @@ body {
   padding-left: 24px;
 }
 
+.show-in-mobile {
+  display: none;
+}
+
 .text-12 {
   font-size: 12px;
 }
@@ -84,4 +88,22 @@ body {
 
 .ml-16 {
   margin-left: 16px;
+}
+
+@media only screen and (max-width: 426px) {
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .show-in-mobile {
+    display: block;
+  }
+
+  .mt-16-xs {
+    margin-top: 16px;
+  }
+
+  .pl-0-xs {
+    padding-left: 0px;
+  }
 }

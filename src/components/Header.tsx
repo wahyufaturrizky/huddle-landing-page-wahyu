@@ -1,6 +1,8 @@
 import "styles/Header.css";
 import { ReactComponent as Logo } from "assets/images/logo.svg";
+import { ReactComponent as LogoMobile } from "assets/images/logo-mobile.svg";
 import { ReactComponent as ImageMockup } from "assets/images/illustration-mockups.svg";
+import { ReactComponent as ImageMockupMobile } from "assets/images/illustration-mockups-mobile.svg";
 import Button from "./Button";
 
 interface HeaderPropsInterface {
@@ -11,8 +13,18 @@ const Header = (props: HeaderPropsInterface) => {
   return (
     <div className="container-header-intro">
       <header className="container-header">
-        <Logo />
-        <Button label={props.labelButton} />
+        <div className="hide-in-mobile">
+          <Logo />
+        </div>
+        <div className="show-in-mobile">
+          <LogoMobile />
+        </div>
+        <div className="hide-in-mobile">
+          <Button label={props.labelButton} />
+        </div>
+        <div className="show-in-mobile">
+          <Button padding={4} label={props.labelButton} width={100} />
+        </div>
       </header>
 
       <section className="intro">
@@ -29,7 +41,14 @@ const Header = (props: HeaderPropsInterface) => {
           </div>
         </div>
         <div className="container-image">
-          <ImageMockup />
+          <div className="hide-in-mobile">
+            <ImageMockup />
+          </div>
+          <div className="show-in-mobile">
+            <div className="mt-16">
+              <ImageMockupMobile />
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -4,6 +4,7 @@ interface ButtonPropsInterface {
   label?: string;
   isPink?: boolean;
   width?: number;
+  padding?: number;
   onClick?: () => void;
 }
 
@@ -13,6 +14,7 @@ const Button = (props: ButtonPropsInterface) => {
       style={{
         backgroundColor: props.isPink ? "#ff52bf" : "white",
         width: props.width ?? 197,
+        padding: props.padding ?? 16,
       }}
       className="button"
       onClick={props.onClick}

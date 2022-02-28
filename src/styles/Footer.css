@@ -26,3 +26,17 @@
 .copy {
   text-align: right;
 }
+
+@media only screen and (max-width: 426px) {
+  .footer {
+    padding: 100px 16px 16px 16px;
+  }
+
+  .text-center-xs {
+    text-align: center;
+  }
+
+  .footer-sosmed {
+    flex-direction: column;
+  }
+}

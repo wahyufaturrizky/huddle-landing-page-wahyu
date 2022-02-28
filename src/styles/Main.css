@@ -39,3 +39,33 @@
   align-items: center;
   background-color: white;
 }
+
+@media only screen and (max-width: 426px) {
+  .container-ready {
+    left: 0px;
+    bottom: -72px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .container-main {
+    padding: 16px 16px 113px 16px;
+  }
+
+  .card-main {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 588px;
+    padding: 16px;
+  }
+
+  .text-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-image {
+    width: 100%;
+  }
+}
